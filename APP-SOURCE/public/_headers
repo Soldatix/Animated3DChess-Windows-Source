@@ -1,0 +1,21 @@
+# Cloudflare Pages static-asset cache policy for standalone Wizard Chess PWA.
+# Service Worker and entrypoint must be fresh on each release.
+/sw.js
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/manifest.webmanifest
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+# The GLB names and Stockfish 19.0.1 URLs are not content-hashed.
+# Use bounded caching to permit updates without long-lived stale assets.
+/assets/glb/*
+  Cache-Control: public, max-age=86400
+
+/vendor/stockfish-19.0.1/*
+  Cache-Control: public, max-age=86400

@@ -1,0 +1,9 @@
+{
+  "application": "Animated 3D Chess Windows",
+  "version": "1.0.0.0",
+  "internal_build": "V4.1",
+  "local_source_commit": "be1c28fa26a2060c11b7b8c17618c705af4a8493",
+  "reference_private_msix_sha256": "2F4FD5E1FA384C9F3F9159DC39FDAF4DC51953631E0B08B4B2E5987332A50A29",
+  "stockfish_pinned_commit": "0d5dd7944f88c817c07a26bc4fb1905d5f9c46d6",
+  "status": "PUBLIC_SOURCE_CANDIDATE_ONLY_BINARY_RELEASE_NOT_APPROVED"
+}

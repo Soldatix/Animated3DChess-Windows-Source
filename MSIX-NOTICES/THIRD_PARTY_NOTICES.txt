@@ -1,0 +1,26 @@
+ANIMATED 3D CHESS WINDOWS — SOURCE NOTICE INDEX
+
+Corresponding-source candidate for Windows MSIX 1.0.0.0 (internal V4.1).
+Exact local application-source commit: be1c28fa26a2060c11b7b8c17618c705af4a8493
+Reference technically audited private unsigned MSIX SHA256: 2F4FD5E1FA384C9F3F9159DC39FDAF4DC51953631E0B08B4B2E5987332A50A29
+
+Application license: APP-SOURCE/LICENSE (GNU General Public License, version 3).
+Stockfish.js 19.0.1 Lite Single WASM (GNU GPLv3):
+  runtime APP-SOURCE/public/vendor/stockfish-19.0.1/
+  source STOCKFISH-SOURCE/expanded-v19.0.1/ and pinned source ZIP
+  NNUE STOCKFISH-SOURCE/nn-61e7af4bb97d.nnue
+  license MSIX-NOTICES/licenses/stockfish/Copying.txt; AUTHORS.txt
+JavaScript notices: MSIX-NOTICES/licenses/THIRD-PARTY-JAVASCRIPT.txt
+Rust runtime notices: MSIX-NOTICES/licenses/THIRD-PARTY-RUST.txt
+Rust build notices: SOURCE-DEPENDENCY-NOTICES/licenses/THIRD-PARTY-RUST-BUILD.txt
+Additional exact-version notice evidence: SOURCE-DEPENDENCY-NOTICES/Evidence-Exact-Supplements/
+
+Inherited 3D chess piece models in APP-SOURCE/public/assets/glb/: rights to redistribute
+these assets commercially have NOT been independently established. This text does not
+grant third-party model rights or assert ownership.
+
+The reference V4.1 MSIX is PRIVATE and UNSIGNED and contains a prior staging notice index.
+The distributed binary must be repackaged with an actual live public source link and
+updated notice file before Microsoft Store submission.
+
+The included DOCS/ build helper is a draft, not a verified reproducible build.
