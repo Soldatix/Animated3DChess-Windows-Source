@@ -1,0 +1,10 @@
+{
+    "app":  {
+                "security":  {
+                                 "csp":  {
+                                             "connect-src":  "\u0027self\u0027 ipc: http://ipc.localhost http://127.0.0.1:8787 ws://127.0.0.1:8787 http://localhost:8787 ws://localhost:8787 https://chess-multiplayer-v11-test.soldatix.workers.dev wss://chess-multiplayer-v11-test.soldatix.workers.dev"
+                                         },
+                                 "devCsp":  "default-src \u0027self\u0027 http://127.0.0.1:3000; script-src \u0027self\u0027 \u0027unsafe-inline\u0027 \u0027unsafe-eval\u0027 \u0027wasm-unsafe-eval\u0027 http://127.0.0.1:3000; style-src \u0027self\u0027 \u0027unsafe-inline\u0027; img-src \u0027self\u0027 data: blob: asset: http://asset.localhost; font-src \u0027self\u0027 data:; worker-src \u0027self\u0027 blob:; connect-src \u0027self\u0027 ipc: http://ipc.localhost http://127.0.0.1:3000 ws://127.0.0.1:3000 http://127.0.0.1:8787 ws://127.0.0.1:8787 http://localhost:8787 ws://localhost:8787 https://chess-multiplayer-v11-test.soldatix.workers.dev wss://chess-multiplayer-v11-test.soldatix.workers.dev; object-src \u0027none\u0027; base-uri \u0027none\u0027; frame-src \u0027none\u0027"
+                             }
+            }
+}

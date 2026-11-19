@@ -1,0 +1,26 @@
+{
+    "name":  "chess-multiplayer-v11-test",
+    "vars": {"ALLOWED_ORIGINS": "https://chess.appsandgames.org"},
+    "main":  "src/index.mjs",
+    "compatibility_date":  "2026-10-24",
+    "workers_dev":  true,
+    "durable_objects":  {
+                            "bindings":  [
+                                             {
+                                                 "name":  "CHESS_ROOMS",
+                                                 "class_name":  "ChessRoom"
+                                             }
+                                         ]
+                        },
+    "migrations":  [
+                       {
+                           "tag":  "v1",
+                           "new_sqlite_classes":  [
+                                                      "ChessRoom"
+                                                  ]
+                       }
+                   ],
+    "observability":  {
+                          "enabled":  false
+                      }
+}

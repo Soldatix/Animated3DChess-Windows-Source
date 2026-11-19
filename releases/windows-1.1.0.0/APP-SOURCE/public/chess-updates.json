@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "product": "animated-3d-chess",
+  "channels": {
+    "web": {
+      "version": "1.0.0"
+    },
+    "pwa": {
+      "version": "1.0.0"
+    },
+    "microsoft-store": {
+      "version": "1.0.0"
+    }
+  }
+}

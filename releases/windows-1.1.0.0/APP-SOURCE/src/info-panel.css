@@ -1,0 +1,46 @@
+/* Wizard Chess — Apps & Games Info modal */
+.wc-info-backdrop {
+  position: fixed; inset: 0; z-index: 60;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(2, 4, 8, .82); backdrop-filter: blur(7px);
+  padding: max(14px, env(safe-area-inset-top)) 14px max(14px, env(safe-area-inset-bottom));
+  overflow-y: auto; pointer-events: auto;
+}
+.wc-info-dialog {
+  width: min(650px, 100%); max-height: min(760px, 94dvh);
+  background: linear-gradient(160deg, #17202c 0%, #0a1019 78%);
+  border: 1px solid rgba(212,175,55,.48); border-radius: 18px;
+  box-shadow: 0 30px 90px rgba(0,0,0,.85), inset 0 1px rgba(250,220,130,.08);
+  color: #f0ece1; overflow-y: auto; overscroll-behavior: contain;
+  user-select: text;
+}
+.wc-info-head {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 12px; padding: 22px 24px 16px;
+  border-bottom: 1px solid rgba(212,175,55,.25);
+}
+.wc-info-eyebrow { color: #d4af37; text-transform: uppercase; letter-spacing: .17em; font-size: .69rem; font-weight: 700; }
+.wc-info-head h2 { color: #f5d76e; font-size: clamp(1.3rem, 4vw, 1.85rem); margin: 5px 0 2px; }
+.wc-info-subtitle { color: #b9b5aa; font-size: .78rem; }
+.wc-info-close { flex-shrink: 0; width: 42px; height: 42px; border-radius: 12px; border: 1px solid rgba(212,175,55,.36); background: rgba(212,175,55,.1); color: #f5d76e; font-size: 1.6rem; cursor: pointer; }
+.wc-info-close:hover { background: rgba(212,175,55,.2); }
+.wc-info-body { padding: 6px 24px 15px; display: grid; gap: 18px; }
+.wc-info-body h3 { color: #efcb65; font-size: .96rem; margin-bottom: 5px; }
+.wc-info-body h4 { color: #e2d8c0; font-size: .82rem; margin: 11px 0 4px; }
+.wc-info-body p { color: #d4d0c7; font-size: .83rem; line-height: 1.62; }
+.wc-info-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px; }
+.wc-info-grid section { border: 1px solid rgba(212,175,55,.18); border-radius: 10px; background: rgba(255,255,255,.03); padding: 12px; }
+.wc-info-support { border: 1px solid rgba(212,175,55,.23); border-radius: 10px; padding: 14px; background: rgba(212,175,55,.06); }
+.wc-info-support a { display: inline-flex; margin-top: 10px; padding: 10px 12px; background: rgba(212,175,55,.14); border: 1px solid rgba(212,175,55,.38); border-radius: 9px; color: #f5d76e; font-size: .8rem; text-decoration: none; }
+.wc-info-footer { display: flex; gap: 15px; justify-content: space-between; flex-wrap: wrap; padding: 16px 24px 22px; border-top: 1px solid rgba(212,175,55,.2); }
+.wc-info-footer a { color: #f5d76e; font-size: .78rem; text-decoration: none; overflow-wrap: anywhere; }
+.wc-info-dialog a:hover, .wc-info-dialog a:focus-visible { text-decoration: underline; }
+.wc-info-dialog :focus-visible { outline: 3px solid #f5d76e; outline-offset: 3px; }
+@media (max-width: 768px) {
+  .wc-info-backdrop { align-items: flex-start; padding: 9px; }
+  .wc-info-dialog { max-height: calc(100dvh - 18px); border-radius: 12px; }
+  .wc-info-head { padding: 16px; }
+  .wc-info-body { padding: 7px 16px 15px; gap: 14px; }
+  .wc-info-footer { padding: 14px 16px 18px; }
+  .wc-info-grid { grid-template-columns: 1fr; gap: 8px; }
+}

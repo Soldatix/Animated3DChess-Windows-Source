@@ -1,0 +1,21 @@
+.wc-tutorial-backdrop{position:fixed;inset:0;z-index:80;background:#05070ddd;display:grid;place-items:center;padding:12px}
+.wc-tutorial-panel{width:min(96vw,480px);max-height:94dvh;overflow:auto;background:#171b26;color:var(--text);border:1px solid var(--hud-border);border-radius:16px;padding:18px;box-shadow:0 20px 65px #000a;text-align:center}
+.wc-tutorial-panel header,.wc-tutorial-panel footer{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.wc-tutorial-panel h2{font-size:1.15rem;color:var(--gold-bright)}
+.wc-tutorial-panel h3{margin-top:6px;font-size:1.05rem}
+.wc-tutorial-panel p{line-height:1.5;margin:6px 0}
+.wc-tutorial-panel button{min-height:40px;padding:7px 13px;background:#272f42;color:var(--text);border:1px solid var(--hud-border);border-radius:10px;cursor:pointer}
+.wc-tutorial-panel button:focus-visible{outline:2px solid var(--gold-bright)}
+.wc-mini-board{position:relative;display:grid;grid-template-columns:repeat(8,1fr);width:min(78vw,44vh,320px);aspect-ratio:1;margin:14px auto;border:3px solid var(--gold)}
+.wc-mini-square.light{background:#e4d5b6}.wc-mini-square.dark{background:#667580}.wc-mini-square.legal{background-image:radial-gradient(circle,#31d476b8 0 30%,transparent 34%);box-shadow:inset 0 0 0 2px #40dc80}
+.wc-mini-square.capture{background-image:radial-gradient(circle,#fa5757ac 0 29%,transparent 34%);box-shadow:inset 0 0 0 2px #fa6565}
+.wc-mini-square.target{outline:2px solid #ffd257;outline-offset:-4px}
+.wc-mini-enemy{position:absolute;width:12.5%;height:12.5%;display:grid;place-items:center;font-size:clamp(19px,5vw,30px);color:#171b26;text-shadow:0 0 3px #fff;line-height:1;pointer-events:none}
+.wc-mini-legend{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center;margin:6px 0}
+.wc-mini-legend>span{display:inline-flex;gap:5px;align-items:center;font-size:.79rem}
+.wc-mini-legend-box{display:inline-block;width:14px;height:14px;border-radius:3px;border:2px solid}
+.wc-mini-legend-box.legal{background:#31d47688;border-color:#40dc80}
+.wc-mini-legend-box.capture{background:#fa575788;border-color:#fa6565}
+.wc-mini-moving-piece{position:absolute;width:12.5%;height:12.5%;display:grid;place-items:center;font-size:clamp(20px,5vw,32px);color:#fff;line-height:1;text-shadow:0 2px 4px #000;animation:wc-tutorial-move 2.8s ease-in-out infinite alternate}
+@keyframes wc-tutorial-move{0%,16%{transform:translate(0,0)}84%,100%{transform:translate(var(--dx),var(--dy))}}
+@media(prefers-reduced-motion:reduce){.wc-mini-moving-piece{animation:none;transform:translate(var(--dx),var(--dy))}}

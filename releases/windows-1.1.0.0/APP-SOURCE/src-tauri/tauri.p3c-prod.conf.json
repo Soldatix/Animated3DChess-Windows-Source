@@ -1,0 +1,10 @@
+{
+  "version": "1.1.0",
+  "app": {
+    "security": {
+      "csp": {
+        "connect-src": "'self' ipc: http://ipc.localhost https://chess-multiplayer-v11-prod.soldatix.workers.dev wss://chess-multiplayer-v11-prod.soldatix.workers.dev https://chess.appsandgames.org"
+      }
+    }
+  }
+}

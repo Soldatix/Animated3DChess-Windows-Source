@@ -1,0 +1,8 @@
+.wc-pwa-panel{position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:12000;box-sizing:border-box;width:min(94vw,430px);padding:14px 16px;border:1px solid #c09b4c;border-radius:16px;background:#101720;color:#fff5da;box-shadow:0 12px 36px #000b;font:500 13px/1.45 system-ui,sans-serif;display:grid;gap:7px}
+.wc-pwa-panel[hidden]{display:none!important}
+.wc-pwa-panel strong{font-size:15px;color:#f5d17e}
+.wc-pwa-message{color:#e8e7df}
+.wc-pwa-actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap}
+.wc-pwa-actions button{cursor:pointer;border:1px solid #c09b4c;background:#222c38;color:#ffe8a9;border-radius:9px;padding:8px 12px;font:inherit}
+.wc-pwa-actions .wc-pwa-install{background:#d5aa54;color:#131923;font-weight:700}
+.wc-pwa-actions button:focus-visible{outline:3px solid #fff;outline-offset:2px}

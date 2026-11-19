@@ -1,0 +1,20 @@
+Animated 3D Chess for Windows — Version 1.1.0.0
+
+Original application license: GNU GPLv3 (Legal/GPL-3.0.txt).
+Stockfish.js 19.0.1 Lite Single: GNU GPLv3, authors and license included.
+Stockfish.js version-specific corresponding source: https://github.com/nmrugg/stockfish.js/tree/v19.0.1
+
+Application corresponding source repository:
+https://github.com/Soldatix/Animated3DChess-Windows-Source
+IMPORTANT: The matching Windows 1.1.0.0 source snapshot MUST BE PUBLICLY PUBLISHED at this location BEFORE Store submission. Merely having the older V1.0 source is insufficient.
+
+The following notices and their original copyright statements are included:
+- react 19.3.1: see Legal/Libraries/react_LICENSE.txt
+- react-dom 19.3.1: see Legal/Libraries/react-dom_LICENSE.txt
+- three 0.170.0: see Legal/Libraries/three_LICENSE.txt
+- chess.js 1.4.0: see Legal/Libraries/chess.js_LICENSE.txt
+- @google/genai 2.30.0: see Legal/Libraries/@google_genai_LICENSE.txt
+- scheduler 0.28.0: see Legal/Libraries/scheduler_LICENSE.txt
+
+See Legal/THIRD_PARTY_NOTICES.md for component descriptions and provenance notes.
+No ownership or license is asserted for any model whose provenance has not been verified.
