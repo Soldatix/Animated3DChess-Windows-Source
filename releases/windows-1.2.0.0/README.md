@@ -1,3 +1,24 @@
+# Animated 3D Chess for Windows 1.2.0.0 — V8.7 corresponding source
+
+Current source candidate for Windows x64 1.2.0.0 (internal V8.7), independently reviewed on 2026-11-25. This source-only publication does not certify or release the Store binary.
+
+- [Download exact reviewed V8.7 source archive](./Animated3DChess_Windows_1.2.0.0_Corresponding_Source_V8_7_CANDIDATE.zip)
+- [SHA-256 checksums](./SHA256SUMS.txt)
+- Source ZIP SHA-256: `fd8113e2c09c667a8fde154758844898d226d911d17c32509e9a31e78dc1296b`
+- Matching executable SHA-256: `8ba8fe05d927f0867e935368bc5f17f47178ec937acfc98bbe9866d4067fe094`
+- Reviewed unsigned MSIX SHA-256: `c714c1fc84c08978ee6d8892101834b04ab55ada97cb241f5121b8c2694b70dd` (not hosted here; Store signing can change package bytes).
+- Source manifest SHA-256: `580607d1194f91799a7daaf27d6b91a152e2e61a6e37eccc9082119c60b9fc6b`
+
+Extract the ZIP. Within `V87-STAGE/`, read `BUILD_WINDOWS_V120.md`, `Legal/SOURCE_AND_LICENSES.txt`, `RELEASE_SOURCE_GATES.md` and `SOURCE_SHA256SUMS.txt`. The exact archive includes its historical review/build notes; the hashes above supersede earlier V8 references in those notes. It contains 684 verified source files and the external manifest, including 520 Legal files. V8.7 build evidence reports 352/352 tests passed. Independent byte-for-byte rebuild reproducibility is not claimed. The test fixture is not proof of the active Worker revision.
+
+Application code: GPL-3.0-only; third-party components and graphics retain their applicable terms. No new claim of artwork ownership or independently verified artwork distribution permission is made. Final redistribution evidence and Store testing remain separate from this source publication.
+
+Stockfish.js pinned commit: `0d5dd7944f88c817c07a26bc4fb1905d5f9c46d6`. See the included licenses and source instructions. [Privacy policy](https://appsandgames.org/privacy-policy#animated-3d-chess).
+
+---
+
+## Historical V8.4 candidate (retained for traceability)
+
 # Animated 3D Chess for Windows 1.2.0.0 — corresponding source
 
 This directory provides the versioned corresponding-source archive for the Windows x64 1.2.0.0 distribution candidate (V8.4). Publication of source does not by itself establish that a binary has been certified or released in the Microsoft Store.

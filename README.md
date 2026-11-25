@@ -1,3 +1,5 @@
+> **Windows 1.2.0.0 (V8.7) — current corresponding-source candidate:** [Source and checksums](releases/windows-1.2.0.0/README.md). Source-only; Store release not implied.
+
 > **Windows 1.1.0.0 (Online Multiplayer) â€” corresponding source:** [Source and build instructions](releases/windows-1.1.0.0/README_RELEASE_V11.md) Â· [Application source](releases/windows-1.1.0.0/APP-SOURCE) Â· [Third-party licenses](releases/windows-1.1.0.0/Legal). Earlier Windows 1.0 source remains available below.
 # Animated 3D Chess — Windows V4.1 corresponding-source candidate
 
